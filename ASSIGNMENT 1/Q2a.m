@@ -1,0 +1,10 @@
+originalArray = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+sineArray = sin(originalArray);
+numberToAdd = 10;
+resultArray = sineArray + numberToAdd;
+disp("Original Array:");
+disp(originalArray);
+disp("Sine of Original Array:");
+disp(sineArray);
+disp("Result Array (Sine + Number):");
+disp(resultArray);

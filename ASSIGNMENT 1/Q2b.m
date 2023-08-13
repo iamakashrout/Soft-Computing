@@ -1,0 +1,10 @@
+originalArray = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+transposedArray = originalArray';
+numberToAdd = 10;
+resultArray = transposedArray + numberToAdd;
+disp("Original Array:");
+disp(originalArray);
+disp("Transposed Array:");
+disp(transposedArray);
+disp("Result Array (Transposed + Number):");
+disp(resultArray);
